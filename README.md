@@ -19,7 +19,7 @@ La problemática en el proyecto es la falta de madurez y estructura en los datos
 
 ![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/54424acd-0da0-4a2e-8adc-e7ac93e1d8e6)
 
-# a.Extracción y preprocesamiento de datos (ETL)
+# <h3 align='left'> a.Extracción y preprocesamiento de datos (ETL)</h3>
  
 .Extracción de datos de fuentes de streaming.
  
