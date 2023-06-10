@@ -183,3 +183,32 @@ El modelo entrenado puede ser utilizado para predecir calificaciones de películ
  
  Prestar Atención!!! Si desea explorar el código a detalle tiene que descargar el archivo desarrollado Aquí--->> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lGVeqlIPEE9Ph8up_77qksx6d_FU0VcF?hl=es#scrollTo=_tif5ugNRhq6)
  </p>
+ 
+ # <h2 align='left'> 9. Deploy </h2>
+ <p align="justify">
+Nuestro sistema de recomendación de películas basado en filtro colaborativo hemos  utilizando Gradio. EL resumen del proceso de despliegue:
+
+.Lectura de los datos: Se lee el conjunto de datos desde el archivo CSV ('merged_data6.csv') en un DataFrame de pandas llamado dfmerge.
+
+.Carga del modelo: Se carga el modelo entrenado previamente desde el archivo guardado ('fc_model_svd_v1.pkl') utilizando la biblioteca pickle. El modelo cargado se almacena en la variable svd_model.
+
+.Definición de la función de recomendación: Se define la función generar_recomendacion() que toma como argumentos el modelo SVD, el ID del usuario, el DataFrame de películas y los géneros de interés. Esta función filtra las películas que corresponden a los géneros de interés, realiza predicciones de rating para esas películas utilizando el modelo y devuelve una lista de títulos de películas recomendadas.
+
+.Envoltura de la función de recomendación: Se define la función wrap_generar_recomendacion() que se utilizará como función de entrada para Gradio. Esta función toma los valores ingresados por el usuario, crea la lista de géneros de interés y llama a la función generar_recomendacion() con los argumentos correspondientes.
+
+.Definición de la interfaz de Gradio: Se utiliza la clase Interface de Gradio para definir la interfaz de usuario. Se especifican los elementos de entrada (ID de usuario, casillas de verificación para los géneros de interés y la cantidad de recomendaciones) y el elemento de salida (texto que muestra los títulos de las películas recomendadas). También se proporciona un título y una descripción para la interfaz.
+
+.Lanzamiento de la interfaz: Se utiliza el método launch() para iniciar la interfaz de Gradio y hacerla accesible para su uso.
+
+Cuando se lanza la interfaz, los usuarios pueden ingresar su ID de usuario, seleccionar los géneros de interés y la cantidad de recomendaciones que desean obtener. Luego, la función wrap_generar_recomendacion() se llama con los valores ingresados y se muestra el resultado en la interfaz.
+ </p>
+## 9.1 Google Colab:
+Para hacer un puesta en producción rápido ofrecemos un[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ca5bSqtBeaBBVMwqrYN45X54_T5YsNUq?hl=es#scrollTo=JC1onUIrxD-E), previamente hay que subir la red entrenada, que obtuvimos en el paso anterior.
+Nota: este producto solo durará unas horas ya que esta limitado por el uso de Google colab.
+
+## 9.2 HugginFace:
+Si se desea tener un modelo en la nube de manera permanente y gratuita le ofrecemos una versión en HuggingFace, el código se encuentra libre en la misma plataforma [Link Deploy](https://davidhosp-movie-recommendation-system.hf.space/)
+
+
+
+
