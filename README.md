@@ -204,8 +204,8 @@ Cuando se lanza la interfaz, los usuarios pueden ingresar su ID de usuario, sele
  </p>
 # <h5 align='left'> 9.1 Google Colab: </h5>
 Para hacer un puesta en producción rápido ofrecemos Google Colab!!! Si desea explorar el código a detalle tiene que descargar el archivo desarrollado Aquí--->> 
-[![Open In Colab]
-(https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ca5bSqtBeaBBVMwqrYN45X54_T5YsNUq?hl=es#scrollTo=JC1onUIrxD-E)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ca5bSqtBeaBBVMwqrYN45X54_T5YsNUq?hl=es#scrollTo=JC1onUIrxD-E)
+
 , previamente hay que subir la red entrenada, que obtuvimos en el paso anterior.
 
 Nota: este producto solo durará unas horas ya que esta limitado por el uso de Google colab.
