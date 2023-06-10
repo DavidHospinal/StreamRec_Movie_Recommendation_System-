@@ -21,7 +21,7 @@ La problemática en el proyecto es la falta de madurez y estructura en los datos
 
 <p align="justify">
  
-a.Extracción y preprocesamiento de datos (ETL)
+# a.Extracción y preprocesamiento de datos (ETL)
  
 .Extracción de datos de fuentes de streaming.
  
