@@ -19,19 +19,19 @@ La problemática en el proyecto es la falta de madurez y estructura en los datos
 
 ![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/54424acd-0da0-4a2e-8adc-e7ac93e1d8e6)
 
-# <h4 align='left'> a.Extracción y preprocesamiento de datos (ETL)</h4>
+# <h5 align='left'> a.Extracción y preprocesamiento de datos (ETL)</h5>
  
 .Extracción de datos de fuentes de streaming.
  
 .Limpieza y transformación de datos.
  
-# b.Análisis exploratorio de datos (EDA)
+# <h5 align='left'> b.Análisis exploratorio de datos (EDA)</h5>
  
 .Exploración de la estructura y distribución de los datos.
  
 .Identificación de patrones y tendencias.
 
-# c.Desarrollo de la API
+# <h5 align='left'> c.Desarrollo de la API</h5>
  
 .Diseño de los endpoints de la API.
  
@@ -39,7 +39,7 @@ La problemática en el proyecto es la falta de madurez y estructura en los datos
  
 .Exposición de la API para acceso externo.
  
-# d.Entrenamiento del modelo
+# <h5 align='left'> d.Entrenamiento del modelo</h5>
  
 .Selección del algoritmo de recomendación
  
@@ -47,13 +47,13 @@ La problemática en el proyecto es la falta de madurez y estructura en los datos
  
 .Validación cruzada y evaluación de rendimiento
  
-# e.Evaluación y ajuste del modelo
+# <h5 align='left'> e.Evaluación y ajuste del modelo</h5>
  
 .Cálculo de métricas de evaluación (RMSE, MAE)
  
 .Ajuste de hiperparámetros para mejorar la precisión
  
-# f.Implementación y despliegue
+# <h5 align='left'> f.Implementación y despliegue</h5>
  
 .Configuración de servidores y recursos
  
