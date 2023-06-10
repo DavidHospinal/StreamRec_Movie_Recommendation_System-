@@ -125,8 +125,7 @@ Los procedimientos de limpieza que se realizaron a los dos archivos CSV (movies_
 .Unión de datos: Una vez que los dos archivos CSV se limpiaron y se seleccionaron las columnas relevantes, se realizó la unión de los datos utilizando la columna 'id' como clave de unión. Esto permitió combinar la información de actores y equipos de producción del archivo credits.csv con los detalles de la película del archivo movies_dataset.csv. y esto dio lugar al dataset final para nuestro modelo merged_data6.csv.
  
  .Versionamiento de los datasets: En este link encontrarás los versionamientos trabajados de los datasets a lo largo del proyecto
- [![Open In Kaggle](https://cdn.icon-icons.com/icons2/2699/PNG/96/kaggle_logo_icon_168474.png)]
- (https://www.kaggle.com/datasets/davidhspinal/streamrec-movie?select=movies_dataset.csv)
+ [![Open In Kaggle](https://cdn.icon-icons.com/icons2/2699/PNG/96/kaggle_logo_icon_168474.png)](https://www.kaggle.com/datasets/davidhspinal/streamrec-movie?select=movies_dataset.csv)
 </p>
 
  
