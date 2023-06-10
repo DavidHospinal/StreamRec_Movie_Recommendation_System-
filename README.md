@@ -22,28 +22,43 @@ La problemática en el proyecto es la falta de madurez y estructura en los datos
 <p align="justify">
  
 a.Extracción y preprocesamiento de datos (ETL)
+ 
 .Extracción de datos de fuentes de streaming.
+ 
 .Limpieza y transformación de datos.
  
 b.Análisis exploratorio de datos (EDA)
+ 
 .Exploración de la estructura y distribución de los datos.
+ 
 .Identificación de patrones y tendencias.
 
  c.Desarrollo de la API
+ 
 .Diseño de los endpoints de la API.
+ 
 .Implementación de la lógica de recomendación.
+ 
 .Exposición de la API para acceso externo.
  
 d.Entrenamiento del modelo
+ 
 .Selección del algoritmo de recomendación
+ 
 .Ajuste de parámetros del modelo
+ 
 .Validación cruzada y evaluación de rendimiento
  
 e.Evaluación y ajuste del modelo
+ 
 .Cálculo de métricas de evaluación (RMSE, MAE)
+ 
 .Ajuste de hiperparámetros para mejorar la precisión
  
 f.Implementación y despliegue
+ 
 .Configuración de servidores y recursos
+ 
 .Integración con otros componentes del sistema
+ 
 </p>
