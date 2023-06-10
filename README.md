@@ -10,12 +10,23 @@ El sistema utilizará técnicas de Machine Learning, en particular el modelo de 
 El proyecto busca proporcionar un MVP (Minimum Viable Product) en un plazo de tiempo acelerado, permitiendo a la start-up lanzar su sistema de recomendación y ofrecer una experiencia mejorada a sus usuarios. Con el tiempo, se espera ampliar y mejorar el sistema, incorporando nuevos algoritmos de recomendación y funciones adicionales para enriquecer la experiencia del usuario.
 </p>
 
-# <h2 align='left'> 2. Problemática</h2>
+# <h2 align='left'> 2. Background</h2>
+
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/00cc87f9-c045-4aa8-b4e1-21dd91c16468)
+
+
+<p align="justify">
+El proyecto surge en el contexto de una start-up que ofrece servicios de agregación de plataformas de streaming. La empresa se enfrenta al desafío de proporcionar recomendaciones personalizadas a sus usuarios, con el objetivo de mejorar la experiencia de usuario y aumentar la retención.
+Anteriormente, la empresa no contaba con un sistema de recomendación implementado y los datos disponibles para este fin eran escasos y poco estructurados. La falta de procesos automatizados para la actualización de nuevas películas o series y la falta de transformación de los datos dificultaban la tarea de crear un modelo de recomendación efectivo.
+Ante esta situación, el equipo de Data Science se propone desarrollar un sistema de recomendación desde cero, realizando tareas de Data Engineering para transformar y organizar los datos, así como desarrollar una API para interactuar con el modelo de recomendación. El objetivo es crear un MVP (Minimum Viable Product) en un plazo de tiempo reducido para poner en marcha el sistema de recomendación y comenzar a obtener retroalimentación de los usuarios.
+El proyecto busca superar los desafíos de madurez de los datos, implementar procesos automatizados para la actualización de información y aprovechar técnicas de aprendizaje automático para generar recomendaciones personalizadas y precisas. Con esto, la empresa espera mejorar la satisfacción de los usuarios y fortalecer su posición en el mercado de servicios de streaming.
+</p>
+# <h2 align='left'> 3. Problemática</h2>
 
 <p align="justify">
 La problemática en el proyecto es la falta de madurez y estructura en los datos de plataformas de streaming, lo que dificulta la creación de un sistema de recomendación efectivo. Los datos están desorganizados, no hay procesos automatizados para la actualización de nuevos contenidos y se requiere un trabajo rápido de Data Engineering para transformar los datos y crear un MVP funcional. Esta falta de estructura y procesos eficientes dificulta el desarrollo y despliegue de un sistema de recomendación eficaz, lo que representa un desafío para el equipo de Data Science.
 </p>
-# <h2 align='left'> 3. Pipeline Del Proyecto "StreamRec"</h2>
+# <h2 align='left'> 4. Pipeline Del Proyecto "StreamRec"</h2>
 
 ![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/54424acd-0da0-4a2e-8adc-e7ac93e1d8e6)
 
@@ -59,7 +70,7 @@ La problemática en el proyecto es la falta de madurez y estructura en los datos
  
 .Integración con otros componentes del sistema
 
-# <h2 align='left'> 3. Elección del Stack tecnológico </h2>
+# <h2 align='left'> 5. Elección del Stack tecnológico </h2>
 
 ![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/eda54f38-5699-4675-88bb-3646a53120a2)
 
