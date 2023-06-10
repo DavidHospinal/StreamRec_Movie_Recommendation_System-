@@ -212,6 +212,65 @@ Nota: este producto solo durará unas horas ya que esta limitado por el uso de G
 # <h5 align='left'> 9.2 HugginFace:</h5>
 Si se desea tener un modelo en la nube de manera permanente y gratuita le ofrecemos una versión en HuggingFace, el código se encuentra libre en la misma plataforma [Link Deploy](https://davidhosp-movie-recommendation-system.hf.space/)
 
+ # <h2 align='left'> 10. Project Organization </h2>
+ 
+ ├── LICENSE
+├── tasks.py           <- Invoke with commands like `notebook`.
+├── README.md          <- The top-level README for developers using this project.
+├── install.md         <- Detailed instructions to set up this project.
+├── data
+│   ├── external       <- Data from third party sources.
+│   ├── interim        <- Intermediate data that has been transformed.
+│   ├── processed      <- The final, canonical data sets for modeling.
+│   └── raw            <- The original, immutable data dump.
+│
+├── models             <- Trained and serialized models, model predictions, or model summaries.
+│
+├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+│   │                     the creator's initials, and a short `-` delimited description
+│   └── models              <- Notebooks of Machine learning or Deep Learning models.
+│   └── feature_engineering <- Notebooks of cleaning, transforming data, export final dataset.
+│
+├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+│
+├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+│   └── figures         <- Generated graphics and figures to be used in reporting.
+│
+├── environment.yml    <- The requirements file for reproducing the analysis environment.
+│
+├── .here              <- File that will stop the search if none of the other criteria
+│                         apply when searching head of project.
+│
+├── setup.py           <- Makes project pip installable (pip install -e .)
+│                         so src can be imported.
+│
+└── src               <- Source code for use in this project.
+    ├── __init__.py    <- Makes src a Python module.
+    │
+    ├── data           <- Scripts to download or generate data.
+    │   └── make_dataset.py
+    │
+    ├── features       <- Scripts to turn raw data into features for modeling.
+    │   └── build_features.py
+    │
+    ├── models         <- Scripts to train models and then use trained models to make
+    │   │                 predictions.
+    │   ├── predict_model.py
+    │   └── train_model.py
+    │
+    ├── utils          <- Scripts to help with common tasks.
+        └── paths.py   <- Helper functions to relative file referencing across project.
+    │
+    └── visualization  <- Scripts to create exploratory and results oriented visualizations.
+        └── visualize.py
 
+ # <h2 align='left'> 11. Conclusiones Finales </h2>
 
+<p align="justify">
+El proyecto logró desarrollar un sistema de recomendación de películas basado en filtrado colaborativo, utilizando el algoritmo SVD. El uso de SVD permitió realizar predicciones precisas y personalizadas para cada usuario. El sistema demostró ser útil y eficaz en la generación de recomendaciones de películas basadas en los géneros de interés del usuario.
+ 
+ En general, el proyecto combinó técnicas de preprocesamiento de datos, construcción de modelos y despliegue de una interfaz interactiva para crear un sistema de recomendación de películas completo y funcional. El enfoque basado en filtrado colaborativo resultó efectivo y proporcionó recomendaciones relevantes a los usuarios. El proyecto puede servir como base para el desarrollo de sistemas de recomendación más avanzados y aplicaciones similares en el ámbito del entretenimiento y la personalización de contenido.
+ 
+ 
+ </p>
 
