@@ -186,7 +186,7 @@ El modelo entrenado puede ser utilizado para predecir calificaciones de películ
  
  # <h2 align='left'> 9. Deploy </h2>
  <p align="justify">
-Nuestro sistema de recomendación de películas basado en filtro colaborativo hemos  utilizando Gradio. EL resumen del proceso de despliegue:
+Nuestro sistema de recomendación de películas basado en filtro colaborativo hemos  utilizando Gradio. Aquí un resumen del proceso de despliegue:
 
 .Lectura de los datos: Se lee el conjunto de datos desde el archivo CSV ('merged_data6.csv') en un DataFrame de pandas llamado dfmerge.
 
@@ -202,11 +202,11 @@ Nuestro sistema de recomendación de películas basado en filtro colaborativo he
 
 Cuando se lanza la interfaz, los usuarios pueden ingresar su ID de usuario, seleccionar los géneros de interés y la cantidad de recomendaciones que desean obtener. Luego, la función wrap_generar_recomendacion() se llama con los valores ingresados y se muestra el resultado en la interfaz.
  </p>
-## 9.1 Google Colab:
+# <h5 align='left'> 9.1 Google Colab: </h5>
 Para hacer un puesta en producción rápido ofrecemos un[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ca5bSqtBeaBBVMwqrYN45X54_T5YsNUq?hl=es#scrollTo=JC1onUIrxD-E), previamente hay que subir la red entrenada, que obtuvimos en el paso anterior.
 Nota: este producto solo durará unas horas ya que esta limitado por el uso de Google colab.
 
-## 9.2 HugginFace:
+# <h5 align='left'> 9.2 HugginFace:</h5>
 Si se desea tener un modelo en la nube de manera permanente y gratuita le ofrecemos una versión en HuggingFace, el código se encuentra libre en la misma plataforma [Link Deploy](https://davidhosp-movie-recommendation-system.hf.space/)
 
 
