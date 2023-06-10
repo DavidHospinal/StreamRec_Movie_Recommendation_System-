@@ -271,6 +271,20 @@ El proyecto logró desarrollar un sistema de recomendación de películas basado
  
  En general, el proyecto combinó técnicas de preprocesamiento de datos, construcción de modelos y despliegue de una interfaz interactiva para crear un sistema de recomendación de películas completo y funcional. El enfoque basado en filtrado colaborativo resultó efectivo y proporcionó recomendaciones relevantes a los usuarios. El proyecto puede servir como base para el desarrollo de sistemas de recomendación más avanzados y aplicaciones similares en el ámbito del entretenimiento y la personalización de contenido.
  
- 
  </p>
+ 
+ # Citación
+Por favor si usas la base de datos o el código, realizar la citación respectiva al autor. 
+```
+@article{StreamRec -Sistema de Recomendaciones Personalizadas De Películas y Series},
+  Title = {StreamRec Movie Recommendation System},
+  Authors = {Hospinal Roman, Oscar David },
+  Year = {2023}
+  University={HENRY}
+}
+```
+# Contacto 
+Para mas información por favor contactarse a:
+
+u202021214@upc.edu.pe(David Hospinal).
 
