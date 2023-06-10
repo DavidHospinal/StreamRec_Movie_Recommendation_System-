@@ -9,3 +9,7 @@ El proyecto aborda el desafío de trabajar con datos poco maduros, donde se requ
 El sistema utilizará técnicas de Machine Learning, en particular el modelo de recomendación basado en el algoritmo SVD (Singular Value Decomposition), que permitirá analizar el historial de visualización de los usuarios y encontrar patrones para generar recomendaciones personalizadas. Además, se implementará una interfaz de usuario amigable donde los usuarios podrán explorar recomendaciones, calificar películas y series, y recibir nuevas sugerencias en función de sus preferencias.
 El proyecto busca proporcionar un MVP (Minimum Viable Product) en un plazo de tiempo acelerado, permitiendo a la start-up lanzar su sistema de recomendación y ofrecer una experiencia mejorada a sus usuarios. Con el tiempo, se espera ampliar y mejorar el sistema, incorporando nuevos algoritmos de recomendación y funciones adicionales para enriquecer la experiencia del usuario.
 </p>
+
+# <h2 align='left'> 3. Pipeline Del Proyecto "StreamRec"</h2>
+
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/54424acd-0da0-4a2e-8adc-e7ac93e1d8e6)
