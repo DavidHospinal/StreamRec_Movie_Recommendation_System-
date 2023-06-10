@@ -181,5 +181,5 @@ En este caso, el uso de SVD es justificado porque es uno de los algoritmos más 
 El modelo entrenado puede ser utilizado para predecir calificaciones de películas para usuarios específicos y ofrecer recomendaciones personalizadas en función de las preferencias de cada usuario.
  
  
- Prestar Atención!!! Si desea explorar el código a detalle tiene que desacargar el archivo desarrollado [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lGVeqlIPEE9Ph8up_77qksx6d_FU0VcF?hl=es#scrollTo=_tif5ugNRhq6)
+ Prestar Atención!!! Si desea explorar el código a detalle tiene que descargar el archivo desarrollado Aquí--->> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lGVeqlIPEE9Ph8up_77qksx6d_FU0VcF?hl=es#scrollTo=_tif5ugNRhq6)
  </p>
