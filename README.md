@@ -148,6 +148,36 @@ Los procedimientos de limpieza que se realizaron a los dos archivos CSV (movies_
 
 .Cálculo del puntaje final: Se sumaron o promediaron las puntuaciones ponderadas de las columnas mencionadas anteriormente para obtener un puntaje final. Este puntaje final se asignó a una nueva columna llamada "score_final".
  ![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/b1b78cb5-7e00-4366-a887-a7d5d15bb9e7)
-
  
+ </p>
+ 
+ 
+# <h2 align='left'> 8. Training </h2>
+
+<p align="justify">
+El algoritmo elegido para nuestro modelo fue SVD (Descomposición de Valores Singulares) en la biblioteca Surprise. A continuación, se explica los detalles y justificación del uso del algoritmo y el proceso de entrenamiento:
+
+Carga de datos: El conjunto de datos se carga desde el archivo CSV ('merged_data6.csv') en un DataFrame de pandas llamado dfmerge.
+
+Creación de un objeto Reader: Se crea un objeto Reader especificando la escala de calificación de las películas. En este caso, se utiliza el puntaje final como escala, que se obtuvo previamente en el análisis exploratorio de datos (EDA). El rango de la escala se define utilizando el valor mínimo y máximo del puntaje final en el DataFrame dfmerge.
+
+Carga de datos en el formato Surprise: Se carga el conjunto de datos en el formato requerido por la biblioteca Surprise utilizando el método load_from_df() de la clase Dataset. Se proporciona el DataFrame dfmerge y se seleccionan las columnas 'id', 'id', y 'score_final', que corresponden al identificador del usuario, identificador de la película y puntaje final, respectivamente.
+
+División de los datos: Los datos se dividen en un conjunto de entrenamiento y prueba utilizando el método train_test_split() de la biblioteca Surprise. Se especifica un tamaño de prueba del 25% (test_size=0.25).
+
+Creación e implementación del modelo SVD: Se crea una instancia del modelo SVD utilizando la clase SVD() de Surprise. Luego, se entrena el modelo utilizando el método fit() y el conjunto de entrenamiento (trainset).
+
+Guardado del modelo: El modelo entrenado se guarda en un archivo utilizando la biblioteca pickle en formato de archivo binario ('.pkl').
+
+Carga del modelo: Se carga el modelo entrenado desde el archivo guardado utilizando pickle y se almacena en la variable svd_loaded.
+
+Predicción de una calificación: Se utiliza el modelo cargado para predecir la calificación de una película específica para un usuario específico. Se proporciona el identificador del usuario (user_id) y el identificador de la película (movie_id) en el método predict() del modelo svd_loaded. El valor estimado de la calificación se almacena en la variable predicted_rating y se imprime en pantalla.
+
+El algoritmo SVD (Descomposición de Valores Singulares) se utiliza en el filtrado colaborativo debido a su eficacia en la recomendación de elementos basada en la similitud entre usuarios o elementos. SVD se basa en la matriz de calificaciones de usuarios y elementos para descomponerla en matrices de valores singulares, lo que permite reducir la dimensionalidad y capturar relaciones latentes entre usuarios y elementos. Esto ayuda a predecir las calificaciones faltantes o recomendar elementos nuevos basados en las preferencias de usuarios similares.
+
+En este caso, el uso de SVD es justificado porque es uno de los algoritmos más populares y efectivos en el filtrado colaborativo. Además, Surprise es una biblioteca especializada en recomendaciones y proporciona implementaciones eficientes de varios algoritmos de filtrado colaborativo, incluido SVD.
+
+El modelo entrenado puede ser utilizado para predecir calificaciones de películas para usuarios específicos y ofrecer recomendaciones personalizadas en función de las preferencias de cada usuario.
+ 
+ Prestar Atención!!! Si desea explorar el ódigo a detalle tiene que desacargar el archivo desarrollado [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lGVeqlIPEE9Ph8up_77qksx6d_FU0VcF?hl=es#scrollTo=_tif5ugNRhq6)
  </p>
