@@ -105,5 +105,27 @@ Esto dio como resultado una página web y una API, desarrollando la infraestruct
 
 Estas herramientas proporcionan un conjunto sólido de tecnologías para abordar los distintos aspectos del proyecto, desde el desarrollo de la API con FastAPI, el entrenamiento y desarrollo del modelo en Colab, hasta el despliegue del modelo en Hugging Face y el control de versiones del código en GitHub.
 </p>
+
+# <h2 align='left'> 6. Conjunto De Datos</h2>
+
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/f623f0af-ce5c-4777-ad95-612fffcaca3f)
+
+
+<p align="justify">
+Los procedimientos de limpieza que se realizaron a los dos archivos CSV (movies_dataset.csv y credits.csv) antes de unirlos incluyeron varias etapas:
+
+.Extracción de datos relevantes: Se seleccionaron las columnas necesarias de cada archivo que eran relevantes para el análisis conjunto. En el archivo movies_dataset.csv, se extrajeron las columnas: 'id', 'original_title', 'genres', 'popularity', 'vote_average', y 'vote_count'. En el archivo credits.csv, se extrajeron las columnas: 'id', 'cast', y 'crew'.
+
+.Tratamiento de valores faltantes: Se verificó si había valores faltantes en las columnas seleccionadas y se decidió cómo manejarlos. Por ejemplo, si había valores faltantes en la columna 'cast' o 'crew' del archivo credits.csv, se podrían reemplazar por valores nulos o eliminar las filas correspondientes.
+
+.Conversión de datos: Se verificó el tipo de datos de cada columna y se realizó cualquier conversión necesaria para asegurar la coherencia de los datos. Por ejemplo, las columnas 'popularity', 'vote_average' y 'vote_count' se convirtieron en números decimales o enteros según corresponda.
+
+.Limpieza de texto: Se aplicaron técnicas de limpieza de texto para eliminar caracteres no deseados, espacios en blanco adicionales o formato incorrecto en las columnas de texto, como 'original_title', 'genres' y 'cast'. Esto podría incluir eliminar puntuación, convertir a minúsculas, eliminar espacios adicionales, etc.
+
+.Unión de datos: Una vez que los dos archivos CSV se limpiaron y se seleccionaron las columnas relevantes, se realizó la unión de los datos utilizando la columna 'id' como clave de unión. Esto permitió combinar la información de actores y equipos de producción del archivo credits.csv con los detalles de la película del archivo movies_dataset.csv. y esto dio lugar al dataset final para nuestro modelo merged_data6.csv.
+ 
+ .Versionamiento de los datasets: En este link encontrarás los versionamientos trabajados de los datasets a lo largo del proyecto [Click aquí para su descarga]([https://huggingface.co/spaces/royquilca/recommender_system_pi](https://www.kaggle.com/datasets/davidhspinal/streamrec-movie?select=movies_dataset.csv)
+</p>
+
  
 
