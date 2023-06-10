@@ -214,55 +214,55 @@ Si se desea tener un modelo en la nube de manera permanente y gratuita le ofrece
 
  # <h2 align='left'> 10. Project Organization </h2>
  
- ├── LICENSE
-├── tasks.py           <- Invoke with commands like `notebook`.
-├── README.md          <- The top-level README for developers using this project.
-├── install.md         <- Detailed instructions to set up this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries.
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│   │                     the creator's initials, and a short `-` delimited description
-│   └── models              <- Notebooks of Machine learning or Deep Learning models.
-│   └── feature_engineering <- Notebooks of cleaning, transforming data, export final dataset.
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures         <- Generated graphics and figures to be used in reporting.
-│
-├── environment.yml    <- The requirements file for reproducing the analysis environment.
-│
-├── .here              <- File that will stop the search if none of the other criteria
-│                         apply when searching head of project.
-│
-├── setup.py           <- Makes project pip installable (pip install -e .)
-│                         so src can be imported.
-│
-└── src               <- Source code for use in this project.
-    ├── __init__.py    <- Makes src a Python module.
+    ├── LICENSE
+    ├── tasks.py           <- Invoke with commands like `notebook`.
+    ├── README.md          <- The top-level README for developers using this project.
+    ├── install.md         <- Detailed instructions to set up this project.
+    ├── data
+    │   ├── external       <- Data from third party sources.
+    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   └── raw            <- The original, immutable data dump.
     │
-    ├── data           <- Scripts to download or generate data.
-    │   └── make_dataset.py
+    ├── models             <- Trained and serialized models, model predictions, or model summaries.
     │
-    ├── features       <- Scripts to turn raw data into features for modeling.
-    │   └── build_features.py
+    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    │   │                     the creator's initials, and a short `-` delimited description
+    │   └── models              <- Notebooks of Machine learning or Deep Learning models.
+    │   └── feature_engineering <- Notebooks of cleaning, transforming data, export final dataset.
     │
-    ├── models         <- Scripts to train models and then use trained models to make
-    │   │                 predictions.
-    │   ├── predict_model.py
-    │   └── train_model.py
+    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
-    ├── utils          <- Scripts to help with common tasks.
-        └── paths.py   <- Helper functions to relative file referencing across project.
+    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    │   └── figures         <- Generated graphics and figures to be used in reporting.
     │
-    └── visualization  <- Scripts to create exploratory and results oriented visualizations.
-        └── visualize.py
+    ├── environment.yml    <- The requirements file for reproducing the analysis environment.
+    │
+    ├── .here              <- File that will stop the search if none of the other criteria
+    │                         apply when searching head of project.
+    │
+    ├── setup.py           <- Makes project pip installable (pip install -e .)
+    │                         so src can be imported.
+    │
+    └── src               <- Source code for use in this project.
+        ├── __init__.py    <- Makes src a Python module.
+        │
+        ├── data           <- Scripts to download or generate data.
+        │   └── make_dataset.py
+        │
+        ├── features       <- Scripts to turn raw data into features for modeling.
+        │   └── build_features.py
+        │
+        ├── models         <- Scripts to train models and then use trained models to make
+        │   │                 predictions.
+        │   ├── predict_model.py
+        │   └── train_model.py
+        │
+        ├── utils          <- Scripts to help with common tasks.
+            └── paths.py   <- Helper functions to relative file referencing across project.
+        │
+        └── visualization  <- Scripts to create exploratory and results oriented visualizations.
+            └── visualize.py
 
  # <h2 align='left'> 11. Conclusiones Finales </h2>
 
