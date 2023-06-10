@@ -1,0 +1,150 @@
+from fastapi import FastAPI
+import pandas as pd
+
+# Crear instancia de FastAPI
+app = FastAPI()
+
+# Cargar los datos en el DataFrame
+dfmerge = pd.read_csv('C:/Users/David/OneDrive/Escritorio/fastapi/merged_data3.csv')
+
+# Convertir la columna 'release_date' a datetime
+dfmerge['release_date'] = pd.to_datetime(dfmerge['release_date'])
+
+# Función 1: Cantidad de filmaciones por mes
+
+# Ruta del endpoint "/cantidad_filmaciones_mes/{mes}"
+@app.get("/cantidad_filmaciones_mes/{mes}")
+async def cantidad_filmaciones_mes(mes: str):
+    # Mapeamos el mes en español a su valor numérico
+    mes_map = {
+        'enero': 1,
+        'febrero': 2,
+        'marzo': 3,
+        'abril': 4,
+        'mayo': 5,
+        'junio': 6,
+        'julio': 7,
+        'agosto': 8,
+        'septiembre': 9,
+        'octubre': 10,
+        'noviembre': 11,
+        'diciembre': 12,
+    }
+    
+    if mes.lower() not in mes_map:
+        return {"error": "Por favor, ingrese un mes válido."}
+    
+    # Filtramos el DataFrame para solo las películas que fueron estrenadas en el mes dado
+    df_mes = dfmerge[dfmerge['release_date'].dt.month == mes_map[mes.lower()]]
+    
+    # Contamos las películas
+    conteo_peliculas = df_mes.shape[0]
+    
+    return {"resultado": f"{conteo_peliculas} películas fueron estrenadas en el mes de {mes}"}
+
+# Función 2: Cantidad de filmaciones por día de la semana
+
+# Ruta del endpoint "/cantidad_filmaciones_dia/{dia}"
+@app.get("/cantidad_filmaciones_dia/{dia}")
+async def cantidad_filmaciones_dia(dia: str):
+    # Mapeamos el día en español a su valor numérico
+    dias_map = {
+        'lunes': 0,
+        'martes': 1,
+        'miércoles': 2,
+        'jueves': 3,
+        'viernes': 4,
+        'sábado': 5,
+        'domingo': 6
+    }
+    
+    if dia.lower() not in dias_map:
+        return {"error": "Por favor, ingrese un día válido."}
+    
+    # Filtramos el DataFrame para solo las películas que fueron estrenadas en el día dado
+    df_dia = dfmerge[dfmerge['release_date'].dt.dayofweek == dias_map[dia.lower()]]
+    
+    # Contamos las películas
+    conteo_peliculas = df_dia.shape[0]
+    
+    return {"resultado": f"{conteo_peliculas} películas fueron estrenadas en los días {dia}"}
+
+# Función 3: Score de una película por título
+@app.get("/score_titulo/{titulo}")
+async def score_titulo(titulo: str):
+    pelicula = dfmerge[dfmerge['title'] == titulo]
+    
+    if pelicula.empty:
+        return {"error": "No se encontró la película."}
+    
+    año_estreno = pelicula['release_year'].values[0]
+    score = pelicula['popularity'].values[0]
+    
+    return {"resultado": f"La película {titulo} fue estrenada en el año {año_estreno} con un score/popularidad de {score}"}
+
+# Función 4: Votos de una película por título
+
+@app.get("/votos_titulo/{titulo}")
+async def votos_titulo(titulo: str):
+    pelicula = dfmerge[dfmerge['title'] == titulo]
+    
+    if pelicula.empty:
+        return {"error": "No se encontró la película."}
+    
+    vote_count = pelicula['vote_count'].values[0]
+    vote_average = pelicula['vote_average'].values[0]
+    release_year = pelicula['release_year'].values[0]
+    
+    if vote_count < 2000:
+        return {"error": "La película no cumple con la cantidad mínima de valoraciones."}
+    
+    return {"resultado": f"La película {titulo} fue estrenada en el año {release_year}. La misma cuenta con un total de {vote_count} valoraciones, con un promedio de {vote_average}"}
+
+#Función 5: Obtner información Actor
+
+@app.get("/get_actor/{nombre_actor}")
+async def get_actor(nombre_actor: str):
+    actor_films = dfmerge[dfmerge['ActorNames'].str.contains(nombre_actor, case=False)]
+    
+    if actor_films.empty:
+        return {"error": "No se encontró el actor en el dataset."}
+    
+    film_count = actor_films.shape[0]
+    total_return = actor_films['return'].sum()
+    average_return = total_return / film_count
+    
+    return {"resultado": f"El actor {nombre_actor} ha participado en {film_count} filmaciones. Ha conseguido un retorno total de {total_return} con un promedio de {average_return} por filmación."}
+
+#Función 6: Obtner información Director
+
+@app.get("/get_director/{nombre_director}")
+async def get_director(nombre_director: str):
+    # Filtrar el DataFrame por el nombre del director
+    df_director = dfmerge[dfmerge['DirectorNames'] == nombre_director]
+
+    # Verificar si el director existe en el dataset
+    if df_director.empty:
+        return {"error": "El director especificado no se encuentra en el dataset."}
+
+    # Calcular el éxito del director como la suma de los retornos individuales
+    exito = df_director['return'].sum()
+
+    # Obtener los datos de cada película del director
+    peliculas = []
+    for index, row in df_director.iterrows():
+        pelicula = {
+            'titulo': row['title'],
+            'fecha_lanzamiento': row['release_date'],
+            'retorno_individual': row['return'],
+            'costo': row['budget'],
+            'ganancia': row['revenue']
+        }
+        peliculas.append(pelicula)
+
+    return {"exito": exito, "peliculas": peliculas}
+
+
+# Ejecutar la aplicación FastAPI en Visual Studio Code
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
