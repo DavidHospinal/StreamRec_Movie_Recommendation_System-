@@ -168,9 +168,7 @@ División de los datos: Los datos se dividen en un conjunto de entrenamiento y p
 Creación e implementación del modelo SVD: Se crea una instancia del modelo SVD utilizando la clase SVD() de Surprise. Luego, se entrena el modelo utilizando el método fit() y el conjunto de entrenamiento (trainset).
 
 Guardado del modelo: El modelo entrenado se guarda en un archivo utilizando la biblioteca pickle en formato de archivo binario ('.pkl').
- 
-  [Click para su descarga del Modelo--->]
- [![Open In Kaggle]([https://cdn.icon-icons.com/icons2/2699/PNG/96/kaggle_logo_icon_168474.png)](https://www.kaggle.com/datasets/davidhspinal/streamrec-movie?select=movies_dataset.csv](https://www.kaggle.com/datasets/davidhspinal/streamrec-movie?select=fc_model_svd_v1.pkl))
+ [Click aquí para la descarga del Modelo--->][![Open In Kaggle](https://cdn.icon-icons.com/icons2/2699/PNG/96/kaggle_logo_icon_168474.png)](https://www.kaggle.com/datasets/davidhspinal/streamrec-movie?select=fc_model_svd_v1.pkl)
 
 Carga del modelo: Se carga el modelo entrenado desde el archivo guardado utilizando pickle y se almacena en la variable svd_loaded.
 
