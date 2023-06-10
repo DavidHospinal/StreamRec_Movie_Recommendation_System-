@@ -58,5 +58,41 @@ La problemática en el proyecto es la falta de madurez y estructura en los datos
 .Configuración de servidores y recursos
  
 .Integración con otros componentes del sistema
+
+# <h2 align='left'> 3. Elección del Stack tecnológico </h2>
+
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/eda54f38-5699-4675-88bb-3646a53120a2)
+
+<p align="justify">
+Este trabajo se basó en tener un desarrollo suficientemente ágil para tener rápidamente  un prototipo, pero lo suficientemente robusto para escalar.
+En base a esto se decidió utilizar las siguientes tecnologías: Tensorflow, Python, Google Colab y la nube de HuggingFace.
+Esto dio como resultado una página web y una API, desarrollando la infraestructura que nos permite  reentrenar o modificar  modelos y desplegarlos rápidamente a bajo costo.
+ 
+ El stack tecnológico para el proyecto incluye las siguientes herramientas y tecnologías:
+
+.Visual Studio Code: Un potente editor de código que proporciona una interfaz amigable y funcionalidades avanzadas para el desarrollo de software.
+
+.FastAPI: Un framework de desarrollo de API rápido y moderno, construido sobre el estándar de tipado de Python. Permite construir API eficientes y escalables utilizando Python de forma sencilla.
+
+.Google Colab: Un entorno de desarrollo basado en la nube que permite la ejecución de código en notebooks de Jupyter. Colab proporciona recursos computacionales y acceso a bibliotecas populares para el entrenamiento y desarrollo de modelos de machine learning.
+
+.Hugging Face: Una plataforma que ofrece herramientas y bibliotecas para el desarrollo y despliegue de modelos de lenguaje natural. Permite el entrenamiento, evaluación y despliegue de modelos de manera sencilla.
+
+.GitHub: Una plataforma de control de versiones que facilita la colaboración y el seguimiento de cambios en el código fuente del proyecto. Permite el almacenamiento y compartición de repositorios de código, así como la gestión de ramas, problemas y solicitudes de extracción.
+ 
+.Pandas: Una librería de análisis de datos en Python que proporciona estructuras de datos flexibles y eficientes para trabajar con datos tabulares.
+
+.NumPy: Una librería fundamental para la computación numérica en Python. Proporciona un soporte eficiente para operaciones matemáticas en matrices y arreglos multidimensionales.
+
+.Matplotlib: Una librería de visualización de datos en Python que permite crear gráficos y visualizaciones estáticas, como gráficos de líneas, barras, dispersión, histogramas, entre otros.
+
+.Seaborn: Una librería de visualización de datos basada en Matplotlib, que proporciona una interfaz de alto nivel para crear gráficos estadísticos atractivos y informativos.
+
+.Scikit-learn: Una librería de aprendizaje automático en Python que proporciona una amplia gama de algoritmos y herramientas para el preprocesamiento de datos, la selección de características, el entrenamiento de modelos y la evaluación del rendimiento.
+
+.Surprise: Una librería de Python diseñada para construir y evaluar sistemas de recomendación. Proporciona una amplia gama de algoritmos y utilidades para trabajar con datos de recomendación.
+
+Estas herramientas proporcionan un conjunto sólido de tecnologías para abordar los distintos aspectos del proyecto, desde el desarrollo de la API con FastAPI, el entrenamiento y desarrollo del modelo en Colab, hasta el despliegue del modelo en Hugging Face y el control de versiones del código en GitHub.
+</p>
  
 
