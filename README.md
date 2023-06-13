@@ -285,7 +285,7 @@ El proyecto logró desarrollar un sistema de recomendación de películas basado
 En este apartado econtraras el paper del proyecto resumido según el roadmap.
 
 Click aquí para la descarga: [Link](https://docs.google.com/presentation/d/1Vo7-5wFiL5m_S0moL6NruJgOoBMNc0EQ/edit?usp=sharing&ouid=105962371803757766436&rtpof=true&sd=true)
-```
+
  
 # Citación
 Por favor si usas la base de datos o el código, realizar la citación respectiva al autor. 
