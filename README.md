@@ -2,7 +2,8 @@
 
 El proyecto "StreamRec" es un sistema de recomendación de películas y series diseñado para plataformas de streaming. El objetivo principal es proporcionar recomendaciones personalizadas a los usuarios, ayudándoles a descubrir contenido relevante y aumentar su satisfacción con el servicio.
 
-![GIFF](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/76eb291c-77fe-44b5-b0c4-a47129a108b9)
+![GIFF](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/76eb291c-77fe-44b5-b0c4-a47129a108b9) ![Imagennn](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/3a5d7f39-535f-497c-b8d4-2ea0f25a349d)
+
 
 
 
