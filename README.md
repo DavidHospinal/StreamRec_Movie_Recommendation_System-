@@ -34,7 +34,9 @@ El proyecto busca superar los desafíos de madurez de los datos, implementar pro
 La problemática en el proyecto es la falta de madurez y estructura en los datos de plataformas de streaming, lo que dificulta la creación de un sistema de recomendación efectivo. Los datos están desorganizados, no hay procesos automatizados para la actualización de nuevos contenidos y se requiere un trabajo rápido de Data Engineering para transformar los datos y crear un MVP funcional. Esta falta de estructura y procesos eficientes dificulta el desarrollo y despliegue de un sistema de recomendación eficaz, lo que representa un desafío para el equipo de Data Science.
 </p>
 # <h2 align='left'> 4. Pipeline Del Proyecto "StreamRec"</h2>
-![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/65ac9b3c-c535-466c-b7c7-df2e67eae543)
+
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/8dca094d-b5f8-4c2b-9188-fb235221699d)
+
 
 # <h5 align='left'> a.Extracción y preprocesamiento de datos (ETL)</h5>
  
