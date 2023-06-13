@@ -1,9 +1,9 @@
  # <h1 align="center"> StreamRec Movie Recommendation System</h1>
- 
+ <p align="justify">
 El proyecto "StreamRec" es un sistema de recomendación de películas y series diseñado para plataformas de streaming. El objetivo principal es proporcionar recomendaciones personalizadas a los usuarios, ayudándoles a descubrir contenido relevante y aumentar su satisfacción con el servicio.
+![GIFF](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/212de965-a40b-438d-96af-0c91fa07c689)
 
-https://drive.google.com/file/d/1GY33Q3g_4M-nbAJlY40rk5UQqwZO6nFC/view?usp=sharing
-
+</p>
 
 # <h2 align='left'> 0. Roadmap</h2>
 
