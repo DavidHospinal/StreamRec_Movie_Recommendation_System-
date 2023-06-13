@@ -1,6 +1,7 @@
  # <h1 align="center"> StreamRec Movie Recommendation System</h1>
 El proyecto "StreamRec" es un sistema de recomendación de películas y series diseñado para plataformas de streaming. El objetivo principal es proporcionar recomendaciones personalizadas a los usuarios, ayudándoles a descubrir contenido relevante y aumentar su satisfacción con el servicio.
 
+
 # <h2 align='left'> 0. Roadmap</h2>
 
 En esta Parte mostraremos el  roadmap  que proporciona una visión general del proyecto, permitiendo a los miembros del equipo y a las partes interesadas comprender el plan general, identificar las tareas prioritarias y coordinar los esfuerzos. También nos ayudará a mantener el enfoque en los objetivos del proyecto y facilitará la toma de decisiones estratégicas.
@@ -146,16 +147,19 @@ Los procedimientos de limpieza que se realizaron a los dos archivos CSV (movies_
 .Limpieza de datos: Se llevaron a cabo acciones de limpieza, como el manejo de valores faltantes, duplicados o inconsistentes en los conjuntos de datos.
 
 .Análisis de variables: Se realizó un análisis detallado de las variables relevantes, centrándose en el género de las películas. Se identificó el género con el mayor puntaje final y se seleccionaron los cuatro géneros principales: 'Drama', 'Comedy', 'Horror' y 'Romance'. Estos géneros se utilizaron para un análisis más profundo.
-![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/f61fe8d0-9095-493e-aa72-6f371b6573ca)
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/ab4db31e-ac89-4cf3-920d-36f2f77061ac)
+
 
 .Conversión de género en variables dummy: La columna de género se convirtió en variables dummy para representar si a los usuarios les gusta o no un género específico. Se asignó el valor 1 si les gusta el género y 0 si no les gusta.
- ![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/3207a0c9-5f29-4ecb-9561-07ddabf3fc05)
+ 
+ ![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/72f79b25-4d6a-4373-a142-c11d998498c4)
 
 
 .Trabajo con las columnas "vote_average", "vote_count" y "popularity": Estas tres columnas se utilizaron para calcular el puntaje combinado de las películas. Se asignaron pesos a cada columna, lo que permitió enfocarse en diferentes aspectos. Por ejemplo, se podría asignar un peso mayor a "vote_count" y "popularity" para destacar la popularidad de las películas, y un peso menor a "vote_average" para considerar la calificación promedio.
 
 .Cálculo del puntaje final: Se sumaron o promediaron las puntuaciones ponderadas de las columnas mencionadas anteriormente para obtener un puntaje final. Este puntaje final se asignó a una nueva columna llamada "score_final".
- ![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/b1b78cb5-7e00-4366-a887-a7d5d15bb9e7)
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/79e20eca-597a-4819-b78d-bc65a263716c)
+
  
  </p>
  
