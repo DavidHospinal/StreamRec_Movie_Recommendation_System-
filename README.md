@@ -6,7 +6,8 @@ El proyecto "StreamRec" es un sistema de recomendación de películas y series d
 <p align="justify">
 En esta Parte mostraremos el  roadmap  que proporciona una visión general del proyecto, permitiendo a los miembros del equipo y a las partes interesadas comprender el plan general, identificar las tareas prioritarias y coordinar los esfuerzos. También nos ayudará a mantener el enfoque en los objetivos del proyecto y facilitará la toma de decisiones estratégicas.
 </p>
-![graph (1)](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/fb164227-58b7-459e-910a-83dc263f8ea1)
+![graph (1)](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/b68226f5-3b75-4333-9aea-505d02ba2ade)
+
 
 # <h2 align='left'> 1. Descripción del Proyecto</h2>
 
