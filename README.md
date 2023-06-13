@@ -4,6 +4,8 @@ El proyecto "StreamRec" es un sistema de recomendación de películas y series d
 
 # <h2 align='left'> 1. Descripción del Proyecto</h2>
 
+https://www.shutterstock.com/video/clip-1063863772-surprised-friends-watching-film-dark-hall-scared
+
 <p align="justify">
 El proyecto aborda el desafío de trabajar con datos poco maduros, donde se requiere un trabajo rápido de Data Engineering para transformar los datos anidados y establecer procesos automatizados de actualización para incorporar nuevas películas y series. Este enfoque permitirá ofrecer recomendaciones actualizadas y precisas a medida que se agregue contenido nuevo a la plataforma.
 El sistema utilizará técnicas de Machine Learning, en particular el modelo de recomendación basado en el algoritmo SVD (Singular Value Decomposition), que permitirá analizar el historial de visualización de los usuarios y encontrar patrones para generar recomendaciones personalizadas. Además, se implementará una interfaz de usuario amigable donde los usuarios podrán explorar recomendaciones, calificar películas y series, y recibir nuevas sugerencias en función de sus preferencias.
