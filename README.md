@@ -19,6 +19,8 @@ En esta Parte mostraremos el  roadmap  que proporciona una visión general del p
 
 # <h2 align='left'> 1. Descripción del Proyecto</h2>
 
+![preview](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/c80f9b1b-92af-4f14-87cb-d84aed6bc123)
+
 
 
 <p align="justify">
