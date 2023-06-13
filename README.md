@@ -20,9 +20,7 @@ El proyecto busca proporcionar un MVP (Minimum Viable Product) en un plazo de ti
 </p>
 
 # <h2 align='left'> 2. Background</h2>
-
-![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/00cc87f9-c045-4aa8-b4e1-21dd91c16468)
-
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/b728f437-2f5a-4e73-abaa-5f22e02d7570)
 
 <p align="justify">
 El proyecto surge en el contexto de una start-up que ofrece servicios de agregación de plataformas de streaming. La empresa se enfrenta al desafío de proporcionar recomendaciones personalizadas a sus usuarios, con el objetivo de mejorar la experiencia de usuario y aumentar la retención.
@@ -36,8 +34,7 @@ El proyecto busca superar los desafíos de madurez de los datos, implementar pro
 La problemática en el proyecto es la falta de madurez y estructura en los datos de plataformas de streaming, lo que dificulta la creación de un sistema de recomendación efectivo. Los datos están desorganizados, no hay procesos automatizados para la actualización de nuevos contenidos y se requiere un trabajo rápido de Data Engineering para transformar los datos y crear un MVP funcional. Esta falta de estructura y procesos eficientes dificulta el desarrollo y despliegue de un sistema de recomendación eficaz, lo que representa un desafío para el equipo de Data Science.
 </p>
 # <h2 align='left'> 4. Pipeline Del Proyecto "StreamRec"</h2>
-
-![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/54424acd-0da0-4a2e-8adc-e7ac93e1d8e6)
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/65ac9b3c-c535-466c-b7c7-df2e67eae543)
 
 # <h5 align='left'> a.Extracción y preprocesamiento de datos (ETL)</h5>
  
@@ -81,7 +78,7 @@ La problemática en el proyecto es la falta de madurez y estructura en los datos
 
 # <h2 align='left'> 5. Elección del Stack tecnológico </h2>
 
-![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/eda54f38-5699-4675-88bb-3646a53120a2)
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/d60436aa-18fd-4047-991d-5c98a061d22b)
 
 <p align="justify">
 Este trabajo se basó en tener un desarrollo suficientemente ágil para tener rápidamente  un prototipo, pero lo suficientemente robusto para escalar.
@@ -116,8 +113,8 @@ Estas herramientas proporcionan un conjunto sólido de tecnologías para abordar
 </p>
 
 # <h2 align='left'> 6. Conjunto De Datos</h2>
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/23baa831-4ea4-4a5a-9cbc-c9545dcc1045)
 
-![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/f623f0af-ce5c-4777-ad95-612fffcaca3f)
 
 
 <p align="justify">
@@ -288,7 +285,8 @@ En este apartado econtraras el paper del proyecto resumido según el roadmap.
 Click aquí para la descarga: [Link](https://docs.google.com/presentation/d/1Vo7-5wFiL5m_S0moL6NruJgOoBMNc0EQ/edit?usp=sharing&ouid=105962371803757766436&rtpof=true&sd=true)
 
 # Diccionario de Datos
-![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/ec22337f-165e-45bd-a55b-568979cce28c)
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/2a20ae5c-dcee-4dbc-8501-3221b0e89bf9)
+
 
 
  
