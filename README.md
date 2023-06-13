@@ -287,32 +287,8 @@ En este apartado econtraras el paper del proyecto resumido según el roadmap.
 Click aquí para la descarga: [Link](https://docs.google.com/presentation/d/1Vo7-5wFiL5m_S0moL6NruJgOoBMNc0EQ/edit?usp=sharing&ouid=105962371803757766436&rtpof=true&sd=true)
 
 # Diccionario de Datos
-Característica	Descripción
-adult	Indica si la película tiene califiación X, exclusiva para adultos.
-belongs_to_collection	Un diccionario que indica a que franquicia o serie de películas pertenece la película
-budget	El presupuesto de la película, en dólares
-genres	Un diccionario que indica todos los géneros asociados a la película
-homepage	La página web oficial de la película
-id	ID de la pelicula
-imdb_id	IMDB ID de la pelicula
-original_language	Idioma original en la que se grabo la pelicula
-original_title	Titulo original de la pelicula
-overview	Pequeño resumen de la película
-popularity	Puntaje de popularidad de la película, asignado por TMDB (TheMoviesDataBase)
-poster_path	URL del póster de la película
-production_companies	Lista con las compañias productoras asociadas a la película
-production_countries	Lista con los países donde se produjo la película
-release_date	Fecha de estreno de la película
-revenue	Recaudación de la pelicula, en dolares
-runtime	Duración de la película, en minutos
-spoken_languages	Lista con los idiomas que se hablan en la pelicula
-status	Estado de la pelicula actual (si fue anunciada, si ya se estreno, etc)
-tagline	Frase celebre asociadaa la pelicula
-title	Titulo de la pelicula
-video	Indica si hay o no un trailer en video disponible en TMDB
-vote_average	Puntaje promedio de reseñas de la pelicula
-vote_count	Numeros de votos recibidos por la pelicula, en TMDB
-![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/2da64138-a72a-4a5a-9567-368bf9460547)
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/ec22337f-165e-45bd-a55b-568979cce28c)
+
 
  
 # Citación
