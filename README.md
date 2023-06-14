@@ -1,3 +1,11 @@
+{
+  "mermaid": "graph TB\n  CC[\"Cloud Computing\"]\n  CC -- \"Incluye\" --> IAAS[\"Infraestructura como servicio (IaaS)\"]\n  CC -- \"Incluye\" --> PAAS[\"Plataforma como servicio (PaaS)\"]\n  CC -- \"Incluye\" --> SAAS[\"Software como servicio (SaaS)\"]\n  IAAS -- \"Ejemplo\" --> VM[\"Máquinas virtuales\"]\n  PAAS -- \"Ejemplo\" --> AE[\"Entornos de aplicaciones\"]\n  SAAS -- \"Ejemplo\" --> CRM[\"Aplicaciones CRM\"]"
+}
+
+ 
+ 
+ 
+ 
  # <h1 align="center"> StreamRec Movie Recommendation System</h1>
 
 El proyecto "StreamRec" es un sistema de recomendación de películas y series diseñado para plataformas de streaming. El objetivo principal es proporcionar recomendaciones personalizadas a los usuarios, ayudándoles a descubrir contenido relevante y aumentar su satisfacción con el servicio.
