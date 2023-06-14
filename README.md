@@ -304,7 +304,13 @@ En este apartado econtraras el paper del proyecto resumido según el roadmap.
 Click aquí para la descarga: [Link](https://docs.google.com/presentation/d/1Vo7-5wFiL5m_S0moL6NruJgOoBMNc0EQ/edit?usp=sharing&ouid=105962371803757766436&rtpof=true&sd=true)
 
 # Diccionario de Datos
-![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/2a20ae5c-dcee-4dbc-8501-3221b0e89bf9)
+
+Aquí te brindamos nuestro diccionario de datos ya que  es esencial para garantizar la comprensión, consistencia, colaboración y evolución de los datos en nuestro  proyecto.Este Proporciona una base sólida para el diseño, desarrollo y mantenimiento efectivo de los datos, y será una herramienta fundamental para mejorar la calidad y la confiabilidad de la información utilizada en nuestra solución.
+
+![image](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/b39816c4-4745-4e25-8f57-e23b86c8f52d)
+
+
+![graph (3)](https://github.com/DavidHospinal/StreamRec_Movie_Recommendation_System-/assets/73408508/2c30c85f-51b4-4061-b458-e4db5248fdc4)
 
 
 
