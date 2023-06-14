@@ -1,10 +1,4 @@
-{
-  "mermaid": "graph TB\n  CC[\"Cloud Computing\"]\n  CC -- \"Incluye\" --> IAAS[\"Infraestructura como servicio (IaaS)\"]\n  CC -- \"Incluye\" --> PAAS[\"Plataforma como servicio (PaaS)\"]\n  CC -- \"Incluye\" --> SAAS[\"Software como servicio (SaaS)\"]\n  IAAS -- \"Ejemplo\" --> VM[\"Máquinas virtuales\"]\n  PAAS -- \"Ejemplo\" --> AE[\"Entornos de aplicaciones\"]\n  SAAS -- \"Ejemplo\" --> CRM[\"Aplicaciones CRM\"]"
-}
 
- 
- 
- 
  
  # <h1 align="center"> StreamRec Movie Recommendation System</h1>
 
