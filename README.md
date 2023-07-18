@@ -331,5 +331,5 @@ Por favor si usas la base de datos o el código, realizar la citación respectiv
 # Contacto 
 Para mas información por favor contactarse a:
 
-u202021214@upc.edu.pe(David Hospinal).
+oscardavid.hospinal@uc.cl(David Hospinal).
 
